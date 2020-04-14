@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Twistkart-releases</name>
-	      <url>http://13.233.99.3:8081/repository/twistkart-releases/</url>
+	      <url>http://13.234.119.46:8081/repository/twistkart-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Twistkart-snapshots </name>
-	      <url>http://13.233.99.3:8081/repository/twistkart-snapshots/</url>
+	      <url>http://13.234.119.46:8081/repository/twistkart-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
