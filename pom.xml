@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>foldkart-releases</name>
-	      <url>http://13.235.134.12:8081/repository/foldkart-releases/</url>
+	      <url>http://13.233.111.1:8081/repository/foldkart-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>foldkart-snapshots </name>
-	      <url>http://13.235.134.12:8081/repository/foldkart-snapshots/</url>
+	      <url>http://13.233.111.1:8081/repository/foldkart-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
