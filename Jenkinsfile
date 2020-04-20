@@ -13,9 +13,6 @@ node
  }
 
  
-
-
- /*
  stage('Build')
  {
  sh  "${mavenHome}/bin/mvn clean package"
@@ -37,7 +34,7 @@ node
   sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.235.132.183:/opt/apache-tomcat-9.0.29/webapps/"
  }
  }
-*/
+
  stage('SendEmailNotification')
  {
  emailext body: '''Build is over..
